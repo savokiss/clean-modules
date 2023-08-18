@@ -1,7 +1,7 @@
 {
   "name": "@detool/clean-modules",
   "version": "1.0.0",
-  "description": "",
+  "description": "Delete all the node_modules folder with one command.",
   "main": "index.js",
   "bin": {
     "clean-modules": "./index.js"
