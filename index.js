@@ -1,11 +1,11 @@
+#!/usr/bin/env node
+
 const prompts = require('prompts')
 const path = require('path')
 const { runCmd } = require('./utils/runCmd');
 const { deleteNodeModules, deleteSubNodeModules } = require('./utils/folder');
 
 (async () => {
-  // const subDirs = getSubDirectories(process.cwd());
-
   const answer = await prompts([{
     type: 'select',
     name: 'folder',
